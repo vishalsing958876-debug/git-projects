@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fff;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #d34702;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header-buttons span {
+  margin-right: 15px;
+  color: #d34702;
+  font-weight: bold;
+}
+
+.apply-btn {
+  background: #d34702;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+nav li {
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://www.jagannathuniversityncr.ac.in/assets/img/new/banner-4.jpg') no-repeat center center/cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("slider-1.jpg");
+  height: 500px;
+  width: 100%;
+  object-fit:cover;
+  background-size:cover;
+  color: white;
+  padding: 60px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-overlay h4 {
+  color: #f26b10;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero-overlay h1 {
+  font-size: 36px;
+  line-height: 1.4;
+}
+
+.hero-overlay h1 span {
+  color: #f26b10;
+}
+
+.hero-overlay p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+
+}
